@@ -20,6 +20,7 @@ line-height: 56px;
 .menu{
     /* background-color: #FFFFFF; */
     /* width: 100vw; */
+    backgroundcolor: green;
 }
 
 .blight{
@@ -98,13 +99,16 @@ text-shadow: 2px 2px #FB258B;
 }
 .d33{
     /* color: #5025FB; */
-    text-shadow: 4px 3px #5025FB;
+    /* text-shadow: 4px 3px #5025FB; */
+    text-shadow: 3px 5px #5025FB , -3px 3px #FB258B;
+
 }
 .h33{
     font-family: 'Caudex';
 font-style: normal;
 font-weight: 700;
 font-size: 	2.8125rem;
+
 }
 
 p{
@@ -130,7 +134,7 @@ font-size: 1.2rem;
 }
 
 .bs{
-    box-shadow: 51px 10px #5025FB;
+    box-shadow:    5px 5px #5025fb, -3px -3px #fb258b;
 }
 
 .ftext h1   {
@@ -148,4 +152,24 @@ font-weight: 700;
 font-size: 1.1rem;
 line-height: 21px;
 letter-spacing: 0.05em;
+}
+.content{
+    margin-top: 180px;
+}
+.navv {
+    display: flex;
+    align-items: center;
+
+}
+.navv figure {
+    /* margin-top: .001px; */
+    
+}
+.footer{
+    backdrop-filter: blur(47.2917px);
+}
+
+.soc{
+    height: 80vh;
+    z-index: -54;
 }
