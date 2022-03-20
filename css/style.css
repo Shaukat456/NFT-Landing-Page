@@ -1,6 +1,9 @@
 body{
     /* background: radial-gradient(98.26% 251.56% at 13.33% 18.61%, #343131 0%, #1D1919 100%) warning: gradient uses a rotation that is not supported by CSS and may not behave as expected; */
     background: #343131;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 li{
@@ -44,17 +47,19 @@ line-height: 47.5px;
 .name1{
     font-family: 'Catamaran';
 font-style: normal;
-font-weight: 300;
+font-weight: 500;
 font-size: 22.7px;
 line-height: 139.5%;
 }
 
+
 .ads{
     font-family: 'Catamaran';
 font-style: normal;
-font-weight: 200;
+font-weight: 400;
 font-size: 22.7px;
 line-height: 31.67px;
+opacity: .6;
 }
 
 
@@ -105,10 +110,16 @@ font-size: 	2.8125rem;
 p{
     font-family: 'Catamaran';
 font-style: normal;
-font-weight: 500;
+font-weight: 400;
 opacity: .5;
-font-size: 1.25rem;
-letter-spacing: .05rem;
+font-size: 20px;
+
+
+
+
+
+
+/* letter-spacing: .05rem; */
 }
 
 .btnss{
