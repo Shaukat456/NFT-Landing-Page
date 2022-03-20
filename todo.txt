@@ -1,3 +1,8 @@
 Alignments
 fonts
-pictures
+
+
+footer Alignment bg blur
+
+3d Alignment
+p text
