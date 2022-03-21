@@ -23,18 +23,22 @@ line-height: 56px;
     /* width: 100vw; */
     /* backgroundcolor: green; */
 }
-
+.sms{
+    /* margin-left: 0-12; */
+}
 .blight{
     /* background: #343131; */
 }
 .sidebar{
     border-right: 1px solid grey ;
     z-index: 6;
+    
     /* width: 112.55px; */
 }
+
 .mxh{
     /* height: 100vh; */
-    width: 128px;
+    width: 120px;
 }
 .bgimg{
    
