@@ -173,10 +173,24 @@ letter-spacing: 0.05em;
     
 }
 .footer{
+    background: none;
     backdrop-filter: blur(47.2917px);
+    position:relative;
+    top: 80px;
+    /* bottom: 0; */
 }
 
 .soc{
     height: 80vh;
     z-index: -54;
+}
+.brd{
+    background: #FFFFFF;
+    border-radius: 50%;
+border: 0.945833px solid #FFFFFF;
+}
+.brd2,.brd3{
+    opacity: .6;
+    border-radius: 50%;
+
 }
