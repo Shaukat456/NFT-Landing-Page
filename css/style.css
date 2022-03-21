@@ -163,6 +163,11 @@ letter-spacing: 0.05em;
     margin-top: 180px;
     margin-left: 850px;
 }
+.header{
+    /* background: url('./images/socrates.png') no-repeat center ; */
+    z-index: 55;
+
+}
 .navv {
     display: flex;
     align-items: center;
@@ -173,10 +178,13 @@ letter-spacing: 0.05em;
     
 }
 .footer{
-    background: none;
+    /* background:green; */
     backdrop-filter: blur(47.2917px);
     position:relative;
     top: 80px;
+    width: 225.11px;
+height: 225.11px;
+
     /* bottom: 0; */
 }
 
@@ -191,6 +199,7 @@ border: 0.945833px solid #FFFFFF;
 }
 .brd2,.brd3{
     opacity: .6;
+    border-radius: 50%;
     border-radius: 50%;
 
 }
