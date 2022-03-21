@@ -28,6 +28,7 @@ line-height: 56px;
 }
 .sidebar{
     border-right: 1px solid grey ;
+    /* width: 112.55px; */
 }
 .mxh{
     /* height: 100vh; */
@@ -161,7 +162,7 @@ letter-spacing: 0.05em;
 }
 .content{
     margin-top: 180px;
-    margin-left: 850px;
+    margin-left: 56%;
 }
 .header{
     /* background: url('./images/socrates.png') no-repeat center ; */
@@ -177,15 +178,24 @@ letter-spacing: 0.05em;
     /* margin-top: .001px; */
     
 }
+.bgimgg{
+    background: url('./images/socrates.png') no-repeat center ;
+}
 .footer{
+
     /* background:green; */
+    /* background: url('./images/footerbg'); */
     backdrop-filter: blur(47.2917px);
-    position:relative;
-    top: 80px;
+    /* position:relative; */
+    /* top: 80px; */
     width: 225.11px;
-height: 225.11px;
+    height: auto;
+    background: linear-gradient(270deg, rgba(66, 66, 66, 0.49) 0%, rgba(66, 66, 66, 0.4753) 76.04%, rgba(66, 66, 66, 0) 100%);
 
     /* bottom: 0; */
+}
+.home {
+    text-decoration: underline;
 }
 
 .soc{
@@ -202,4 +212,7 @@ border: 0.945833px solid #FFFFFF;
     border-radius: 50%;
     border-radius: 50%;
 
+}
+.sts{
+    z-index: -5;
 }
