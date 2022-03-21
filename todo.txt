@@ -3,3 +3,6 @@
 footer Alignment bg blur
 p text
 3d Alignment
+
+home half border
+footer 

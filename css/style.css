@@ -26,9 +26,15 @@ line-height: 56px;
 .blight{
     /* background: #343131; */
 }
+.sidebar{
+    border-right: 1px solid grey ;
+}
 .mxh{
     /* height: 100vh; */
-    width: 8vw;
+    /* width: 8vw; */
+}
+.bgimg{
+   
 }
 ul{
     font-family: 'Catamaran';
@@ -155,6 +161,7 @@ letter-spacing: 0.05em;
 }
 .content{
     margin-top: 180px;
+    margin-left: 63%;
 }
 .navv {
     display: flex;
